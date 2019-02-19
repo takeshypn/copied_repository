@@ -1,0 +1,13 @@
+<resources>
+    <string name="dinosaur1">Тираннозавр</string>
+    <string name="dinosaur2">Стегозавр</string>
+    <string name="dinosaur3">Диплодок</string>
+    <string name="dinosaur4">Цератопс</string>
+    <string name="dinosaur5">Целофиз</string>
+
+    <string name="app_name">Динозаврики</string>
+    <string name="inf5">информация</string>
+    <string name="pic5">картинки</string>
+
+    <string name="pMenu">Пункты меню</string>
+</resources>

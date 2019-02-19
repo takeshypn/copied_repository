@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/di1"
+        android:orderInCategory="1"
+        android:title="@string/dinosaur1"
+        app:showAsAction="never"/> //режим показа элемента
+    <item
+        android:id="@+id/di2"
+        android:orderInCategory="2"
+        android:title="@string/dinosaur2"
+        app:showAsAction="never"/>
+    </group>
+    <item
+        android:id="@+id/di3"
+        android:orderInCategory="3"
+        android:title="@string/dinosaur3"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/di4"
+        android:orderInCategory="4"
+        android:title="@string/dinosaur4"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/di5"
+        android:orderInCategory="5"
+        android:title="@string/dinosaur5"
+        app:showAsAction="never">
+    <menu>
+        <item android:id="@+id/dd1"
+            android:title="@string/inf5" />
+        <item android:id="@+id/dd2"
+            android:title="@string/pic5" />
+    </menu>
+    </item>
+
+</menu>
